@@ -56,4 +56,4 @@ html, body {
     visibility: visible;
     top: 0;
 }
-.select[data-multiple-select='true'] div .option { transform: scale3d(1,1,1); }
+.select[data-multiple-select='true'] .option { transform: scale3d(1,1,1); }
