@@ -42,3 +42,10 @@ html, body {
     color: #fff;
     border-color: #000;
 }
+.select .input-icon {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5em
+}
