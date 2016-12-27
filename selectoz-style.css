@@ -49,3 +49,15 @@ html, body {
     transform: translateY(-50%);
     font-size: 1.5em
 }
+/* Multiple select */
+.select[data-multiple-select='true'] .select-input {
+    display: none;
+}
+.select[data-multiple-select='true'] div {
+    opacity: 1;
+    visibility: visible;
+    top: 0
+}
+.select[data-multiple-select='true'] div .option {
+    transform: scale3d(1,1,1);
+}
