@@ -15,6 +15,7 @@ window.onload = function () {
         selectedInput = select.getElementsByClassName('select-input')[0],
         selectedVal = select.getElementsByClassName('selected-value')[0],
         option = [].slice.call(select.getElementsByClassName('option')),
+        isFocused = true,
         selectedIndex;
     
     function removeSelected() {
@@ -108,15 +109,16 @@ window.onload = function () {
     }
     
     window.onclick = (e)=> {
-        var t = e.path;
-        while(t.length) {
-            if (t[0].id === 'select') { break; }
-            
-            if (t.length === 1 && t[0].id != 'select') {
-                selectBlur();
-                return;
+        if (isFocused) {
+            var t = e.path;
+            while(t.length) {
+                if (t[0].id === 'select') { break; }
+                if (t.length === 1 && t[0].id != 'select') {
+                    selectBlur();
+                    return;
+                }
+                t.shift();
             }
-            t.shift();
         }
     }
     
@@ -136,10 +138,12 @@ window.onload = function () {
     
     function selectBlur() {
         select.classList.remove('focused');
+        isFocused = false;
     }
     
     function selectFocus() {
         select.classList.add('focused');
+        isFocused = true;
     }
 };
 
