@@ -5,8 +5,9 @@
 JavaScript layer for select boxes
 
 ## Features
- * Copy stored color with one click
- * Sticky nav to navigate between patterns(hex/rgb/rgba)
+ * Multiple select
+ * Keyboard events
+ * East to style
  
 ## HTML
 ``` html 
