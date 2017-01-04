@@ -1,10 +1,16 @@
-<ul id='select' class='select cf' data-multiple-select='false'>
-    <li class="select-input"><span class="selected-value"></span><i class="input-icon fa fa-caret-down"></i></li>
-    <div>
-        <li class="option" data-value='' data-selected='true'>test1</li>
-        <li class="option" data-value=''>test2</li>
-        <li class="option" data-value=''>test3</li>
-        <li class="option" data-value=''>test4</li>
-        <li class="option" data-value=''>test5</li>
-    </div>
-</ul>
+<select multiple>
+    <optgroup label='foooo'>
+        <option value='test1' selected>test1</option>
+        <option disabled value='test2' label='foo' label='test'>test2</option>
+        <option value='test3'>test3</option>
+    </optgroup>
+    <option value='test4'>test4</option>
+    <option value='test5'>test5</option>
+</select>
+<select>
+    <option value='test1' selected>test6</option>
+    <option value='test2' label='test'>test7</option>
+    <option value='test3'>test8vvvvvvvvvvvvvvvvvvvvvvvv</option>
+    <option value='test4'>test9</option>
+    <option value='test5'>test10</option>
+</select>
