@@ -7,7 +7,7 @@ JavaScript layer for select boxes
 ## Features
  * Multiple select
  * Keyboard events
- * East to style
+ * Easy to style
  
 ## HTML
 ``` html 
