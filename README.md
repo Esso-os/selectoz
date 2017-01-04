@@ -28,11 +28,11 @@ JavaScript layer for select boxes
 
 ## JavaScript
 ```javascript
-    selectoz({
-        icon: {
-            focus: 'fa fa-chevron-up',
-            blur: 'fa fa-chevron-down'
-        }
-    });
+selectoz({
+    icon: {
+        focus: 'fa fa-chevron-up',
+        blur: 'fa fa-chevron-down'
+    }
+});
 <!--</body>-->
 ```
