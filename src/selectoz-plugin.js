@@ -35,9 +35,8 @@ function selectoz(opts) {
             selectString;
         
         // plugin options
-        opts.icon.focus != null ? opts.icon.focus : '';
         opts.icon.blur != null ? opts.icon.blur : '';
-        
+        opts.icon.focus != null ? opts.icon.focus : opts.icon.blur;
         
         each(select, (i, selectElem) => {
             selectHTML = selectElem.outerHTML.replace(/\n/g, '');
