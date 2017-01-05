@@ -35,5 +35,4 @@ selectoz({
         blur: 'fa fa-chevron-down'
     }
 });
-<!--</body>-->
 ```
