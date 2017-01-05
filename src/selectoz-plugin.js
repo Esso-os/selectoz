@@ -1,3 +1,11 @@
+/*
+ * plugin name: selectoz
+ * Author: Osama Essam
+ * Github: https://github.com/Osama-Essam/selectoz
+ * Description: JavaScript layer for select boxes
+ * License: MIT
+*/
+
 function selectoz(opts) {
         
         var keyCodes = {
